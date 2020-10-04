@@ -1,0 +1,3 @@
+audited 2047 packages in 13.612s
+found 2 high severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
