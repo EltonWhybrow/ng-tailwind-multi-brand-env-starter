@@ -12,6 +12,12 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/mapbox/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/mapbox/tsconfig.spec.json"
     }
-]
+  ]
 }
