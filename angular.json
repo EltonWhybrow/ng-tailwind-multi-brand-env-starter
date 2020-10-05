@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "widesign-elton": {
+    "ng-tailwind-starter": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
             "customWebpackConfig": {
               "path": "./webpack.config.a.js"
             },
-            "outputPath": "dist/widesign-elton",
+            "outputPath": "dist/ng-tailwind-starter",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
             "customWebpackConfig": {
               "path": "./webpack.config.js"
             },
-            "browserTarget": "widesign-elton:build"
+            "browserTarget": "ng-tailwind-starter:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "widesign-elton:build:production"
+              "browserTarget": "ng-tailwind-starter:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "widesign-elton:build"
+            "browserTarget": "ng-tailwind-starter:build"
           }
         },
         "test": {
@@ -108,16 +108,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "widesign-elton:serve"
+            "devServerTarget": "ng-tailwind-starter:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "widesign-elton:serve:production"
+              "devServerTarget": "ng-tailwind-starter:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "widesign-elton"
+  "defaultProject": "ng-tailwind-starter"
 }
